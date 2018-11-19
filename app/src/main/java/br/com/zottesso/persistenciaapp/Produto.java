@@ -35,4 +35,10 @@ public class Produto extends SugarRecord {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
+
+    public String toString() {
+        return "Produto: " + nome + " Preço: " +
+                valor;
+    }
 }

@@ -87,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Executar o projeto com este código uma vez só para criar o banco
         // Depois pode deixar comentado
-        //SugarContext.init(getApplicationContext());
-        //SchemaGenerator schemaGenerator = new SchemaGenerator(this);
+       // SugarContext.init(getApplicationContext());
+       // SchemaGenerator schemaGenerator = new SchemaGenerator(this);
         //schemaGenerator.createDatabase(new SugarDb(this).getDB());
 
         // Exemplo de uso do SugarORM para salvar objetos no banco
